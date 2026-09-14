@@ -1,3 +1,5 @@
+package com.gokhakan
+
 object Main extends Operations {
   def main(args: Array[String]): Unit = {
     println("Hello world!")
@@ -23,7 +25,4 @@ object Main extends Operations {
   def printNameAndSurname(name:String, surname:String): Unit = {
     println(name+ " and " + surname)
   }
-
-
-
 }
