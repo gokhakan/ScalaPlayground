@@ -34,8 +34,5 @@ object Basics {
     val aList = List("hakan", "gok", "cool")
     for (i<- aList)
       println("List item is: " + i)
-
-
   }
-
 }
