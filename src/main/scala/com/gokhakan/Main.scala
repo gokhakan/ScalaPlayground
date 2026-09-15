@@ -13,7 +13,7 @@ object Main extends Operations {
     printName("Hakan Gok")
     printNumber(33)
     printNameAndSurname("Hakan", "Gok")
-    println(addNumbers(1, 2))
+    println( addNumbers(1, 2))
 
   }
   def printName(name:String): Unit = {
